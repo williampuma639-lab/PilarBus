@@ -21,6 +21,89 @@ Ventajas de utilizar Scrum:
 El modelo Cascada requiere definir y aprobar prácticamente todos los requisitos antes de comenzar el desarrollo. Esto sería una desventaja para PilarBus porque sus funcionalidades pueden cambiar semanalmente.
 
 Por lo tanto, Scrum es más adecuado porque permite desarrollar, probar y mejorar la aplicación continuamente.
+## 2. Estimación de Esfuerzo y Costos (Ágil)
+
+Para estimar el esfuerzo necesario para desarrollar las principales funcionalidades del proyecto **PilarBus**, se utilizará la técnica de **Story Points (Puntos de Historia)** junto con la dinámica de **Planning Poker**.
+
+Esta técnica permite calcular la complejidad, el esfuerzo y la dificultad de cada funcionalidad, sin depender exclusivamente de las horas de trabajo.
+
+Se utilizará la escala de Fibonacci (1, 2, 3, 5, 8, 13 y 21), donde los números más altos representan funcionalidades que requieren mayor esfuerzo y complejidad.
+
+### 2.1. Estimación de las funcionalidades principales
+
+| Funcionalidad | Story Points |
+|---|---:|
+| Registro e inicio de sesión de usuarios | 5 |
+| Consulta de recorridos y horarios de colectivos | 8 |
+| Visualización de colectivos en tiempo real | 13 |
+| Notificaciones sobre desvíos y demoras | 8 |
+| Integración con información de tarjetas SUBE | 13 |
+| Sistema de reclamos y sugerencias | 5 |
+| Panel de administración de recorridos | 8 |
+| Actualización y gestión de información del transporte | 8 |
+| **Total** | **68 SP** |
+
+### 2.2. Aplicación de Planning Poker
+
+Para realizar la estimación se propone utilizar Planning Poker, una técnica en la que se presentan las funcionalidades del sistema y se asignan puntos según su complejidad.
+
+En este caso, al tratarse de un trabajo individual, se utiliza la escala de Fibonacci como referencia para realizar una estimación razonada de cada funcionalidad.
+
+Por ejemplo:
+
+- El registro de usuarios recibe 5 puntos porque requiere validaciones y administración de cuentas.
+- La consulta de recorridos recibe 8 puntos porque necesita organizar y mostrar información del transporte.
+- La visualización de colectivos en tiempo real recibe 13 puntos porque requiere obtener, procesar y actualizar información constantemente.
+- La integración con SUBE recibe 13 puntos debido a su mayor complejidad de integración.
+
+### 2.3. Planificación del esfuerzo
+
+El proyecto tiene un esfuerzo estimado de **68 Story Points**.
+
+Se establece una velocidad de trabajo estimada de 17 Story Points por Sprint, considerando Sprints de dos semanas.
+
+| Sprint | Esfuerzo estimado | Duración |
+|---|---:|---|
+| Sprint 1 | 17 SP | 2 semanas |
+| Sprint 2 | 17 SP | 2 semanas |
+| Sprint 3 | 17 SP | 2 semanas |
+| Sprint 4 | 17 SP | 2 semanas |
+| **Total** | **68 SP** | **8 semanas** |
+
+De esta manera, se estima que el proyecto podría completarse en aproximadamente 8 semanas, distribuidas en cuatro Sprints.
+
+Esta planificación es orientativa y puede modificarse según los resultados de cada Sprint y las prioridades del proyecto.
+
+### 2.4. Estimación de costos
+
+Para calcular los costos se consideran los siguientes aspectos:
+
+- Análisis y planificación de los requerimientos.
+- Diseño de la aplicación móvil y web.
+- Desarrollo de las funcionalidades principales.
+- Pruebas y corrección de errores.
+- Integración de los servicios de información.
+- Mantenimiento y posibles modificaciones.
+
+Se establece un presupuesto académico estimado de **$14.000.000 de pesos argentinos** para el desarrollo del proyecto.
+
+Este monto es una estimación de referencia y no representa un presupuesto comercial definitivo. Los costos reales dependerán de los recursos humanos, tecnológicos y económicos necesarios.
+
+### 2.5. Adaptación a los cambios de requisitos
+
+La estimación ágil permite adaptarse mejor a los cambios porque no establece un plan completamente rígido desde el comienzo del proyecto.
+
+En PilarBus pueden surgir nuevos requisitos, como modificaciones en los recorridos, cambios en los horarios, nuevas alertas o mejoras solicitadas por los usuarios.
+
+Cuando esto sucede, el Product Backlog se actualiza, se revisan las prioridades y se vuelven a estimar las funcionalidades afectadas.
+
+Esto permite:
+
+- Incorporar nuevas funcionalidades según las necesidades de los usuarios.
+- Modificar las prioridades sin tener que reorganizar todo el proyecto.
+- Ajustar los tiempos y esfuerzos de cada Sprint.
+- Detectar dificultades antes de que afecten a todo el desarrollo.
+- Mejorar continuamente el producto mediante la retroalimentación.
 ##  Gestión visual: CLICKUP
 Se utilizará clickup como herramienta de gestión visual para organizar las tareas del proyecto.
 
@@ -34,4 +117,5 @@ Se establecerá un límite WIP (Work In Progress) de tres tareas en la columna I
 Esto significa que solamente podrán existir tres tareas en ejecución al mismo tiempo. De esta manera se evita la sobrecarga de trabajo, se mejora la concentración y se reducen los cuellos de botella.
 ### tablero kanban https://app.clickup.com/90171190153/v/li/901718187602
 Las tarjetas incluyen las etiquetas Desarrollador, Backend, Diseñador y Tester, según corresponda.
+## Control de Versiones y CI/CD:
 
