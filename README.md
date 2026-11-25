@@ -104,7 +104,7 @@ Esto permite:
 - Ajustar los tiempos y esfuerzos de cada Sprint.
 - Detectar dificultades antes de que afecten a todo el desarrollo.
 - Mejorar continuamente el producto mediante la retroalimentación.
-##  Gestión visual: CLICKUP
+##  3 Gestión visual: CLICKUP
 Se utilizará clickup como herramienta de gestión visual para organizar las tareas del proyecto.
 
 El tablero tendrá cuatro columnas principales:
@@ -117,5 +117,36 @@ Se establecerá un límite WIP (Work In Progress) de tres tareas en la columna I
 Esto significa que solamente podrán existir tres tareas en ejecución al mismo tiempo. De esta manera se evita la sobrecarga de trabajo, se mejora la concentración y se reducen los cuellos de botella.
 ### tablero kanban https://app.clickup.com/90171190153/v/li/901718187602
 Las tarjetas incluyen las etiquetas Desarrollador, Backend, Diseñador y Tester, según corresponda.
-## Control de Versiones y CI/CD:
+## 4.Control de Versiones y CI/CD (GitHub)
 
+Para el proyecto **PilarBus** se utiliza GitHub como herramienta para almacenar y organizar la documentación del proyecto.
+
+**Repositorio:** https://github.com/williampuma639-lab/PilarBus
+
+### 4.1. Git y GitHub
+
+Git es un sistema de control de versiones que permite registrar los cambios realizados en los archivos. GitHub permite almacenar esos archivos en línea y mantener un historial del proyecto.
+
+### 4.2. Ramas (Branches)
+
+Las ramas permiten trabajar sobre diferentes modificaciones sin afectar la versión principal.
+
+Se propone utilizar:
+- **main:** versión principal y estable.
+- **feature:** ramas para incorporar mejoras y modificaciones.
+
+### 4.3. Commits
+
+Los commits son registros de los cambios realizados en el repositorio. Permiten conocer las modificaciones y consultar versiones anteriores.
+
+Ejemplos: creación del repositorio, actualización del README y modificación de la documentación.
+
+### 4.4. Pull Requests
+
+Son solicitudes que permiten revisar los cambios realizados en una rama antes de incorporarlos a la rama principal. En este proyecto, el responsable puede revisar sus propios cambios al tratarse de un trabajo individual.
+
+### 4.5. CI/CD
+
+CI/CD significa Integración Continua y Entrega Continua. Permite automatizar verificaciones y facilitar la publicación de nuevas versiones.
+
+En PilarBus se propone utilizar GitHub Actions para realizar controles automáticos y, en una futura etapa de desarrollo, facilitar la publicación de la aplicación.
