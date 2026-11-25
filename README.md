@@ -21,3 +21,17 @@ Ventajas de utilizar Scrum:
 El modelo Cascada requiere definir y aprobar prácticamente todos los requisitos antes de comenzar el desarrollo. Esto sería una desventaja para PilarBus porque sus funcionalidades pueden cambiar semanalmente.
 
 Por lo tanto, Scrum es más adecuado porque permite desarrollar, probar y mejorar la aplicación continuamente.
+##  Gestión visual: Trello
+Se utilizará clickup como herramienta de gestión visual para organizar las tareas del proyecto.
+
+El tablero tendrá cuatro columnas principales:
+- To Do: tareas pendientes.
+- In Progress: tareas que se están realizando.
+- Under Review: Revicion de tareas realizadas.
+- Done: tareas terminadas.
+Se establecerá un límite WIP (Work In Progress) de tres tareas en la columna In Progress.
+
+Esto significa que solamente podrán existir tres tareas en ejecución al mismo tiempo. De esta manera se evita la sobrecarga de trabajo, se mejora la concentración y se reducen los cuellos de botella.
+### tablero kanban https://app.clickup.com/90171190153/v/li/901718187602
+Las tarjetas incluyen las etiquetas Desarrollador, Backend, Diseñador y Tester, según corresponda.
+
